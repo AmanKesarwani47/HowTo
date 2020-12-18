@@ -1,0 +1,67 @@
+.curved-end {
+    border-radius: 25px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-item.active {
+    border-left: #fff 2px solid;
+}
+
+/* ------------ CAROUSEL-BACKGROUND-IMAGE ------------ */
+
+.carousel-item {
+    height: calc(100vh - 30vh);
+}
+
+.carousel-image {
+    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Background-Images/Background-image-1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ------- Social Links --------- */
+.fab.fa-instagram:hover {
+    color: #3f729b;
+}
+
+.fab.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fab.fa-twitter-square:hover {
+    color: #00acee;
+}
+
+.fab.fa-google-plus-square:hover {
+    color: #DB4A39;
+}
+
+.fab.fa-youtube:hover {
+    color: #FF0000;
+}
+
+/* ------------------------ */
+/* CONTACT US */
+/* ------------------------ */
+
+.inputcurve {
+    border-radius: 15px;
+}
+
+/* ------------------------ */
+/* ABOUT US */
+/* ------------------------ */
+
+.aboutImg {
+    transform: scale(0.7);
+    transition: transform 0.5s ease;
+}
+
+.aboutImg:hover {
+    transform: scale(0.9);
+}
